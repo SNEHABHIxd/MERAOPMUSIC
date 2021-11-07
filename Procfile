@@ -1,1 +1,1 @@
-SNEHABHI: python3 -m SNEHU-MUSIC
+SNEHABHI: python3 -m SNEHUxMUSIC
