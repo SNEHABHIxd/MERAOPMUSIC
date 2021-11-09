@@ -16,7 +16,7 @@ import ffmpeg
 
 import requests
 
-from snehabhiXmusic.snehu.admins import admins as a
+from snehabhiXmusic.Snehu.admins import admins as a
 
 from snehabhiXmusic.kingXqueen.callsmusic import callsmusic
 
