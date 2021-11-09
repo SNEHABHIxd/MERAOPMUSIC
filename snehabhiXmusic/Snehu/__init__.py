@@ -1,3 +1,3 @@
-from snehabhiXmusic.snehu.admins import admins, get, set
+from snehabhiXmusic.Snehu.admins import admins, get, set
 
 __all__ = ["set", "get", "admins"]
