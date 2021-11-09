@@ -4,7 +4,7 @@ from pyrogram import Client as Bot
 
 from snehabhiXmusic.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
 
-from snehabhiXmusic.kingXqueen.callsmusic import run
+from snehabhiXmusic.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 
