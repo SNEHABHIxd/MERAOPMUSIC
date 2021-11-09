@@ -2,7 +2,7 @@ from typing import Dict
 
 from pytgcalls import GroupCallFactory
 
-from snehabhiXmusic.kingXqueen.callsmusic import client
+from snehabhiXmusic.services.callsmusic import client
 
 from snehabhiXmusic.kingXqueen.queues import queues
 
