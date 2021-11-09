@@ -12,7 +12,7 @@ from snehabhiXmusic.abhi.decorators import authorized_users_only, errors
 
 from snehabhiXmusic.abhi.filters import command, other_filters
 
-from snehabhiXmusic.kingXqueen.callsmusic.callsmusic import callsmusic
+from snehabhiXmusic.kingXqueen.callsmusic import callsmusic
 
 from snehabhiXmusic.kingXqueen.queues import queues
 
