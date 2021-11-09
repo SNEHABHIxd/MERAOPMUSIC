@@ -2,9 +2,9 @@ from typing import Dict
 
 from pytgcalls import GroupCallFactory
 
-from DaisyXMusic.services.callsmusic import client
+from snehabhiXmusic.kingXqueen.callsmusic import client
 
-from DaisyXMusic.services.queues import queues
+from snehabhiXmusic.kingXqueen.queues import queues
 
 instances: Dict[int, GroupCallFactory] = {}
 
