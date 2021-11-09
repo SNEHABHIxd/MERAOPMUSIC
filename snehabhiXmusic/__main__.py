@@ -8,7 +8,7 @@ from snehabhiXmusic.kingXqueen.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 
-file = open("./etc/foreground.png", "wb")
+file = open("./etc/snehuxabhi.jpg", "wb")
 
 file.write(response.content)
 
