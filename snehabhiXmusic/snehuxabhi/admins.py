@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 
 from pyrogram.types import Message
 
-from snehabhiXmusic.snehu.admins import set
+from snehabhiXmusic.Snehu.admins import set
 
 from snehabhiXmusic.abhi.channelmusic import get_chat_id
 
