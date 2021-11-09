@@ -24,7 +24,7 @@ bot = Bot(
 
     bot_token=BOT_TOKEN,
 
-    plugins=dict(root="snehabhiXmusic.kingXqueen"),
+    plugins=dict(root="snehabhiXmusic.snehuxabhi"),
 
 )
 
