@@ -18,7 +18,7 @@ from snehabhiXmusic.kingXqueen.queues import queues
 
 from snehabhiXmusic.config import que
 
-@Client.on_message(filters.command("snehabhi", ".snehabhi", "xsnehabhi", "/snehabhi"))
+@Client.on_message(filters.command(["snehabhi", ".snehabhi", "xsnehabhi", "/snehabhi"]))
 
 async def update_admin(client, message: Message):
 
@@ -40,7 +40,7 @@ async def update_admin(client, message: Message):
 
     await message.reply_text("❇️ Admin cache refreshed!")
 
-@Client.on_message(command("pause", ".pause", "xpause") & other_filters)
+@Client.on_message(command(["pause", ".pause", "xpause"]) & other_filters)
 
 @errors
 
@@ -66,7 +66,7 @@ async def pause(_, message: Message):
 
         
 
-@Client.on_message(command("resume", ".resume", "xresume") & other_filters)
+@Client.on_message(command(["resume", ".resume", "xresume"]) & other_filters)
 
 @errors
 
@@ -90,7 +90,7 @@ async def resume(_, message: Message):
 
     )
 
-@Client.on_message(command("end", ".end", "xend") & other_filters)
+@Client.on_message(command(["end", ".end", "xend"]) & other_filters)
 
 @errors
 
@@ -118,7 +118,7 @@ async def stop(_, message: Message):
 
         await message.reply_text("❌ Stopped streaming!")
 
-@Client.on_message(command("skip", ".skip", "xskip") & other_filters)
+@Client.on_message(command(["skip", ".skip", "xskip"]) & other_filters)
 
 @errors
 
@@ -160,7 +160,7 @@ async def skip(_, message: Message):
 
     
 
-@Client.on_message(command('mute', '.mute', 'xmute') & other_filters)
+@Client.on_message(command(['mute', '.mute', 'xmute']) & other_filters)
 
 @errors
 
@@ -196,7 +196,7 @@ async def mute(_, message: Message):
 
         
 
-@Client.on_message(command('unmute', '.unmute', 'xunmute') & other_filters)
+@Client.on_message(command(['unmute', '.unmute', 'xunmute']) & other_filters)
 
 @errors
 
@@ -230,7 +230,7 @@ async def unmute(_, message: Message):
 
     )
 
-@Client.on_message(filters.command("snehu", ".snehu", "xsnehu"))
+@Client.on_message(filters.command(["snehu", ".snehu", "xsnehu"]))
 
 @errors
 
