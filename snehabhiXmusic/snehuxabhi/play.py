@@ -24,7 +24,7 @@ from snehabhiXmusic.services.callsmusic import client as USER
 
 from snehabhiXmusic.kingXqueen.queues import queues
 
-from snehabhiXmusic.config import que, UPDATES_CHANNEL as updateschannel, DURATION_LIMIT, BOT_NAME as bn
+from snehabhiXmusic.config import (
 
     ASSISTANT_NAME,
 
