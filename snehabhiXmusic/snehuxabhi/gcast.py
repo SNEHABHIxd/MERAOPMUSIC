@@ -1,4 +1,4 @@
-import asyncio
+imported asyncio
 
 from pyrogram import Client, filters
 
