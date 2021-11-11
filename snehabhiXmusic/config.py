@@ -19,7 +19,7 @@ BOT_NAME = getenv("BOT_NAME")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "snehabhi_updates")
 
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/dcfdf612e499eef0e0b1f.png")
-
+THUMB_IMG = getenv("THUMB_IMG", "https://telegra.ph/file/dcfdf612e499eef0e0b1f.png")
 admins = {}
 
 API_ID = int(getenv("API_ID", ""))
