@@ -6,7 +6,7 @@ from pyrogram.types import Message
 
 from snehabhiXmusic.config import SUDO_USERS
 
-from snehabhiXmusic.kingXqueen.callsmusic.callsmusic import client as USER
+from snehabhiXmusic.services.allsmusic import client as USER
 
 @Client.on_message(filters.command(["broadcast"]))
 
@@ -25,7 +25,7 @@ async def broadcast(_, message: Message):
         wtf = await message.reply("`Starting a broadcast...`")
 
         if not message.reply_to_message:
-
+ft
             await wtf.edit("Please Reply to a Message to broadcast!")
 
             return
