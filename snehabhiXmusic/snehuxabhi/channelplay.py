@@ -30,7 +30,7 @@ from snehabhiXmusic.abhi.gets import get_file_name
 
 from snehabhiXmusic.services import callsmusic
 
-from snehabhiXmusic.services.calls import client as USER
+from snehabhiXmusic.services.callsmusic import client as USER
 
 from snehabhiXmusic.kingXqueen.converter.converter import convert
 
