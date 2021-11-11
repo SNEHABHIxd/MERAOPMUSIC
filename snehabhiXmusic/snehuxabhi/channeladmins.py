@@ -8,7 +8,7 @@ from snehabhiXmusic.Snehu.admins import set
 
 from snehabhiXmusic.abhi.decorators import authorized_users_only, errors
 
-from snehabhiXmusic.kingXqueen.callsmusic import callsmusic
+from snehabhiXmusic.services import callsmusic
 
 from snehabhiXmusic.kingXqueen.queues import queues
 
