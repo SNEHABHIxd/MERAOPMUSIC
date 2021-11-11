@@ -4,7 +4,7 @@ from pyrogram.types import Message
 
 from snehabhiXmusic.abhi.channelmusic import get_chat_id
 
-from snehabhiXmusic.services.callsmusic.callsmusic import remove
+from snehabhiXmusic.services.callsmusic import remove
 
 @Client.on_message(filters.voice_chat_ended)
 
