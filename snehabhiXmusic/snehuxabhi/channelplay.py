@@ -26,7 +26,7 @@ from snehabhiXmusic.abhi.decorators import authorized_users_only
 
 from snehabhiXmusic.abhi.gets import get_file_name
 
-from snehabhiXmusic.snehuxabhi.play import arq, cb_admin_check, generate_cover
+
 
 from snehabhiXmusic.services import callsmusic
 
