@@ -24,6 +24,8 @@ from snehabhiXmusic.services.callsmusic import client as USER
 
 from snehabhiXmusic.kingXqueen.queues import queues
 
+from snehabhiXmusic.kingXqueen.converter.converter import convert
+
 from snehabhiXmusic.config import (
 
     ASSISTANT_NAME,
@@ -1080,7 +1082,7 @@ async def ytplay(_, message: Message):
 
     await generate_cover(title, thumbnail, ctitle)
 
-    file_path = await converter.convert(youtube.download(url))
+    file_path = await convert(youtube.download(url))
 
     chat_id = get_chat_id(message.chat)
 
