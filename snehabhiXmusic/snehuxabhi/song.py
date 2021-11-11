@@ -34,7 +34,7 @@ from youtubesearchpython import SearchVideos
 
 from snehabhiXmusic.config import DURATION_LIMIT
 
-from snehabhiXmusic.snehaxabhi.play import arq
+#KANGERS KI MAA KA BHOSDA
 
 @Client.on_message(filters.command("song") & ~filters.channel)
 
