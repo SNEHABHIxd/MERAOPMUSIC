@@ -8,7 +8,7 @@ from snehabhiXmusic.config import SUDO_USERS
 
 from snehabhiXmusic.abhi.decorators import authorized_users_only, errors
 
-from snehabhiXmusic.kingXqueen.callsmusic import client as USER
+from snehabhiXmusic.services.callsmusic import client as USER
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)
 
