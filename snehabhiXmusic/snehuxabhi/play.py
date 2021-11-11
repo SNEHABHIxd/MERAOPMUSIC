@@ -18,13 +18,13 @@ import requests
 
 from snehabhiXmusic.Snehu.admins import admins as a
 
-from snehabhiXmusic.kingXqueen.callsmusic import callsmusic
+from snehabhiXmusic.services import callsmusic
 
-from snehabhiXmusic.kingXqueen.callsmusic.callsmusic import client as USER
+from snehabhiXmusic.services.callsmusic import client as USER
 
 from snehabhiXmusic.kingXqueen.queues import queues
 
-from snehabhiXmusic.config import (
+from snehabhiXmusic.config import que, UPDATES_CHANNEL as updateschannel, DURATION_LIMIT, BOT_NAME as bn
 
     ASSISTANT_NAME,
 
