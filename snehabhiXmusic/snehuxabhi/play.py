@@ -911,8 +911,8 @@ async def play(_, message: Message):
         if message.reply_to_message:
 
             text = message.reply_to_message.text \
-
                 or message.reply_to_message.caption
+                
 
             if message.reply_to_message.entities:
 
