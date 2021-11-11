@@ -18,7 +18,7 @@ import requests
 
 from snehabhiXmusic.Snehu.admins import admins as a
 
-from snehabhiXmusic.services.callsmusic import callsmusic
+from snehabhiXmusic.services import callsmusic
 
 from snehabhiXmusic.services.callsmusic import client as USER
 
