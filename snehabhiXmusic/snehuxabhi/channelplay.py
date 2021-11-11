@@ -28,9 +28,9 @@ from snehabhiXmusic.abhi.gets import get_file_name
 
 from snehabhiXmusic.snehuxabhi.play import arq, cb_admin_check, generate_cover
 
-from snehabhiXmusic.kingXqueen.callsmusic import callsmusic
+from snehabhiXmusic.services import callsmusic
 
-from snehabhiXmusic.kingXqueen.callsmusic import client as USER
+from snehabhiXmusic.services.calls import client as USER
 
 from snehabhiXmusic.kingXqueen.converter.converter import convert
 
