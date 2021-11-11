@@ -25,7 +25,7 @@ async def broadcast(_, message: Message):
         wtf = await message.reply("`Starting a broadcast...`")
 
         if not message.reply_to_message:
-ft
+#KANGER KI MAA KA BHOSDA
             await wtf.edit("Please Reply to a Message to broadcast!")
 
             return
