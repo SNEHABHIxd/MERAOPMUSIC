@@ -22,7 +22,7 @@ from pyrogram.errors import UserAlreadyParticipant
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from Python_ARQ import ARQ
+
 
 from youtube_search import YoutubeSearch
 
