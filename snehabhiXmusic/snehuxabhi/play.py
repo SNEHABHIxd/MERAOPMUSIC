@@ -1086,7 +1086,7 @@ async def ytplay(_, message: Message):
 
     chat_id = get_chat_id(message.chat)
 
-    if chat_id in callsmusic.pytgcalls.active_calls:
+    if chat_id in callsmusic.active_calls:
 
         position = await queues.put(chat_id, file=file_path)
 
@@ -1132,7 +1132,7 @@ async def ytplay(_, message: Message):
 
         try:
 
-            callsmusic.pytgcalls.join_group_call(chat_id, file_path)
+            callsmusic.join_group_call(chat_id, file_path)
 
         except:
 
