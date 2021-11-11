@@ -30,7 +30,7 @@ BOT_USERNAME = getenv("BOT_USERNAME")
 
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "snehabhi_musics")
 
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "snehabhi_world")
+GROUP_SUPPORT = getenv("SUPPORT_GROUP", "snehabhi_world")
 
 PROJECT_NAME = getenv("PROJECT_NAME", "SNEHABHIxMUSIC V2.0")
 
