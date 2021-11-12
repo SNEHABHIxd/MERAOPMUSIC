@@ -1,30 +1,22 @@
-from asyncio import Queue as _Queue
+  from asyncio import Queue
 
 from asyncio import QueueEmpty as Empty
 
-from typing import Dict
-
-class Queue(_Queue):
-
-    _queue: list = []
-
-    def clear(self):
-
-        self._queue.clear()
+from typing import Dict, Union
 
 queues: Dict[int, Queue] = {}
 
-async def put(chat_id: int, **kwargs) -> int:
+def add(chat_id: int, file_path: str) -> int:
 
     if chat_id not in queues:
 
         queues[chat_id] = Queue()
 
-    await queues[chat_id].put({**kwargs})
+    queues[chat_id].put({"file_path": file_path})
 
     return queues[chat_id].qsize()
 
-def get(chat_id: int) -> Dict[str, str]:
+def get(chat_id: int) -> Union[Dict[str, str], None]:
 
     if chat_id in queues:
 
@@ -34,19 +26,19 @@ def get(chat_id: int) -> Dict[str, str]:
 
         except Empty:
 
-            return {}
+            return None
 
-    return {}
-
-def is_empty(chat_id: int) -> bool:
+def is_empty(chat_id: int) -> Union[bool, None]:
 
     if chat_id in queues:
 
         return queues[chat_id].empty()
 
-    return True
+    else:
 
-def task_done(chat_id: int):
+        return True
+
+def task_done(chat_id: int) -> None:
 
     if chat_id in queues:
 
@@ -60,14 +52,14 @@ def task_done(chat_id: int):
 
 def clear(chat_id: int):
 
-    if chat_id in queues:
+    if chat_id not in queues:
 
-        if queues[chat_id].empty():
+        raise Empty
 
-            raise Empty
+    if queues[chat_id].empty():
 
-        else:
+        raise Empty
 
-            queues[chat_id].clear()
+    else:
 
-    raise Empty
+        queues[chat_id].queue = []
