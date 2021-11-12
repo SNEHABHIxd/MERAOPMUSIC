@@ -11,7 +11,7 @@ from pyrogram.types import Message, Voice, InlineKeyboardButton, InlineKeyboardM
 from pyrogram.errors import UserAlreadyParticipant
 
 from snehabhiXmusic.services import callsmusic
-from snehabhiXmusic.abhi.queues import queues
+from snehabhiXmusic.kingXqueen.queues import queues
 from snehabhiXmusic.services.callsmusic import client as USER
 
 from snehabhiXmusic.abhi.admins import get_administrators
