@@ -6,7 +6,7 @@ from pyrogram.types import Message
 
 from snehabhiXmusic.config import SUDO_USERS
 
-from snehabhiXmusic.services.callsmusic import client as USER
+from Client.callsmusic import client as USER
 
 @Client.on_message(filters.command(["broadcast"]))
 
