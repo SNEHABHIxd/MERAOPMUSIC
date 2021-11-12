@@ -6,17 +6,17 @@ from pyrogram import Client, filters
 
 from pyrogram.types import Message
 
-import sira
 
 
 
-from cache.admins import set
 
-from helpers.decorators import authorized_users_only, errors
+from snehabhiXmusic.snehu.admins import set
 
-from helpers.channelmusic import get_chat_id
+from snehabhiXmusic.abhi.decorators import authorized_users_only, errors
 
-from helpers.filters import command, other_filters
+from snehabhiXmusic.abhi.channelmusic import get_chat_id
+
+from snehabhiXmusic.abhi.filters import command, other_filters
 
 from Client import callsmusic
 
