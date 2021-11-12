@@ -24,4 +24,4 @@ pymongo
 tswift
 python-arq
 youtube_dl
-https://github.com/SNEHABHIxd/pytgcalls/tree/master/pytgcalls/types
+git+https://github.com/SNEHABHIxd/pytgcalls@master
