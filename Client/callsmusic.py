@@ -10,7 +10,7 @@ from pytgcalls import PyTgCalls
 
 #SNEHABHI MUSIC PROJECT
 
-from pytgcalls.types.input_stream import InputAudioStream
+
 
 from config import API_HASH, API_ID, SESSION_NAME
 
