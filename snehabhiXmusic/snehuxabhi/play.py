@@ -26,7 +26,7 @@ from youtube_search import YoutubeSearch
 
 from snehabhiXmusic.kingXqueen.converter import converter
 
-from youtube import youtube
+from snehabhiXmusic.kingXqueen.downloaders import youtube
 
 from snehabhiXmusic.config import DURATION_LIMIT, que, SUDO_USERS
 
