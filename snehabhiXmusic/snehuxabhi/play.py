@@ -48,9 +48,9 @@ from snehabhiXmusic.abhi.filters import command, other_filters
 
 from snehabhiXmusic.abhi.gets import get_file_name
 
-from snehabhiXmusic.services.callsmusic import callsmusic
+from snehabhiXmusic.services import callsmusic
 
-from snehabhiXmusic.kingXqueen.callsmusic import client as USER
+from snehabhiXmusic.services.callsmusic import client as USER
 
 from snehabhiXmusic.kingXqueen.converter.converter import convert
 
